@@ -107,13 +107,15 @@ header .header--button a {
 
 .main-textcommunity-container--img img {
     width: 90%;
-    height: 300px;
+    max-width: 800px;
+    max-height: 500px;
     margin: 0 auto;
 }
 
 .main-stats-container {
     width: 100%;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -156,4 +158,160 @@ header .header--button a {
 .stats--messages p {
     width: 60px;
     margin: 0 auto;
+}
+.main-discussions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.main-discussions .main-discussions--img{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-discussions--img img{
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    max-height: 590px;
+    margin: 0 auto;
+}
+.main-discussions--text{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+.main-discussions--text h2{
+    margin-bottom: 20px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--VeryDarkCyan);
+}
+.main-discussions--text p{
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+}
+.main-flowingConversations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.main-flowingConversations .main-flowingConversations--img{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-flowingConversations--img img{
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    max-height: 590px;
+    margin: 0 auto;
+}
+.main-flowingConversations .main-flowingConversations--text{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+.main-flowingConversations--text h2{
+    margin-bottom: 20px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--VeryDarkCyan);
+}
+.main-flowingConversations--text p{
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+}
+.main-yourusers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.main-yourusers .main-yourusers--img{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-yourusers--img img{
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    max-height: 590px;
+    margin: 0 auto;
+}
+.main-yourusers .main-yourusers--text{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+.main-yourusers--text h2{
+    margin-bottom: 20px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--VeryDarkCyan);
+}
+.main-yourusers--text p{
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    color: var(--VeryDarkCyan);
+}
+.main-ca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.main-ca .main-ca--text{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+.main-ca--text h2{
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--VeryDarkCyan);
+}
+.main-ca--button{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main-ca--button button{
+    width: 200px;
+    height: 40px;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--Pink);
+    color: #fff;
+    outline: none;
 }
