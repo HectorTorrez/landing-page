@@ -33,6 +33,13 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    background-image: url('./images/bg-footer-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 800% 20%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -59,7 +66,6 @@ header .header--button a {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    min-width: 375px;
     margin-top: 100px;
 }
 
@@ -115,7 +121,6 @@ header .header--button a {
 .main-stats-container {
     width: 100%;
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -159,31 +164,35 @@ header .header--button a {
     width: 60px;
     margin: 0 auto;
 }
-.main-discussions{
+
+.main-discussions {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-top: 100px;
-    
 }
-.main-discussions .main-discussions--img{
+
+.main-discussions .main-discussions--img {
     width: 80%;
     margin: 0 auto;
 }
-.main-discussions--img img{
+
+.main-discussions--img img {
     display: flex;
     width: 90%;
     max-width: 800px;
     max-height: 590px;
     margin: 0 auto;
 }
-.main-discussions--text{
+
+.main-discussions--text {
     width: 80%;
     margin: 70px auto;
     text-align: center;
 }
-.main-discussions--text h2{
+
+.main-discussions--text h2 {
     margin-bottom: 20px;
     font-size: 2.6rem;
     font-family: 'Poppins', sans-serif;
@@ -191,7 +200,8 @@ header .header--button a {
     line-height: 2.8rem;
     color: var(--VeryDarkCyan);
 }
-.main-discussions--text p{
+
+.main-discussions--text p {
     max-width: 500px;
     margin: 30px auto;
     font-size: 1.3rem;
@@ -199,30 +209,35 @@ header .header--button a {
     font-weight: 600;
     color: var(--VeryDarkCyan);
 }
-.main-flowingConversations{
+
+.main-flowingConversations {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-top: 100px;
 }
-.main-flowingConversations .main-flowingConversations--img{
+
+.main-flowingConversations .main-flowingConversations--img {
     width: 80%;
     margin: 0 auto;
 }
-.main-flowingConversations--img img{
+
+.main-flowingConversations--img img {
     display: flex;
     width: 90%;
     max-width: 800px;
     max-height: 590px;
     margin: 0 auto;
 }
-.main-flowingConversations .main-flowingConversations--text{
+
+.main-flowingConversations .main-flowingConversations--text {
     width: 80%;
     margin: 70px auto;
     text-align: center;
 }
-.main-flowingConversations--text h2{
+
+.main-flowingConversations--text h2 {
     margin-bottom: 20px;
     font-size: 2.6rem;
     font-family: 'Poppins', sans-serif;
@@ -230,7 +245,8 @@ header .header--button a {
     line-height: 2.8rem;
     color: var(--VeryDarkCyan);
 }
-.main-flowingConversations--text p{
+
+.main-flowingConversations--text p {
     max-width: 500px;
     margin: 30px auto;
     font-size: 1.3rem;
@@ -238,30 +254,35 @@ header .header--button a {
     font-weight: 600;
     color: var(--VeryDarkCyan);
 }
-.main-yourusers{
+
+.main-yourusers {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-top: 100px;
 }
-.main-yourusers .main-yourusers--img{
+
+.main-yourusers .main-yourusers--img {
     width: 80%;
     margin: 0 auto;
 }
-.main-yourusers--img img{
+
+.main-yourusers--img img {
     display: flex;
     width: 90%;
     max-width: 800px;
     max-height: 590px;
     margin: 0 auto;
 }
-.main-yourusers .main-yourusers--text{
+
+.main-yourusers .main-yourusers--text {
     width: 80%;
     margin: 70px auto;
     text-align: center;
 }
-.main-yourusers--text h2{
+
+.main-yourusers--text h2 {
     margin-bottom: 20px;
     font-size: 2.6rem;
     font-family: 'Poppins', sans-serif;
@@ -269,7 +290,8 @@ header .header--button a {
     line-height: 2.8rem;
     color: var(--VeryDarkCyan);
 }
-.main-yourusers--text p{
+
+.main-yourusers--text p {
     max-width: 500px;
     margin: 30px auto;
     font-size: 1.3rem;
@@ -277,19 +299,22 @@ header .header--button a {
     font-weight: 600;
     color: var(--VeryDarkCyan);
 }
-.main-ca{
+
+.main-ca {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-top: 100px;
 }
-.main-ca .main-ca--text{
+
+.main-ca .main-ca--text {
     width: 80%;
     margin: 70px auto;
     text-align: center;
 }
-.main-ca--text h2{
+
+.main-ca--text h2 {
     margin-bottom: 10px;
     font-size: 2.6rem;
     font-family: 'Poppins', sans-serif;
@@ -297,13 +322,15 @@ header .header--button a {
     line-height: 2.8rem;
     color: var(--VeryDarkCyan);
 }
-.main-ca--button{
+
+.main-ca--button {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 30px;
     text-align: center;
 }
-.main-ca--button button{
+
+.main-ca--button button {
     width: 200px;
     height: 40px;
     padding: 10px 10px;
@@ -314,4 +341,153 @@ header .header--button a {
     background-color: var(--Pink);
     color: #fff;
     outline: none;
+}
+
+.main-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.main-newsletter--text {
+    width: 80%;
+    margin: 70px auto;
+    margin-bottom: 30px;
+}
+
+.main-newsletter--text h3 {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #fff;
+}
+
+.main-newsletter--text p {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-newsletter--subs {
+    width: 100%;
+}
+
+.main-newsletter--subs form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-newsletter--subs form .main-newsletter--inputtext {
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.main-newsletter--subs form button {
+    width: 150px;
+    height: 40px;
+    padding: 10px 40px;
+    align-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--Pink);
+    color: #fff;
+    outline: none;
+}
+
+.main-huddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-huddle--text {
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 30px;
+}
+
+.main-huddle--text h2 {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #fff;
+}
+
+.main-huddle--text p {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-huddle--info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main-huddle--info p:nth-child(1) {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-huddle--info p:nth-child(2) {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-huddle--info p:nth-child(1) span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/icon-phone.svg');
+    background-repeat: no-repeat;
+}
+
+.main-huddle--info p:nth-child(2) span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/icon-email.svg');
+    background-repeat: no-repeat;
+}
+
+.main-huddle--redes {
+    display: flex;
 }
